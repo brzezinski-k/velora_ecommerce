@@ -8,7 +8,9 @@ Insights and recommendations are provided on the following key areas:
 	<li><b>Sales Trends Analysis: </b>Revenue, Total Orders and Average Order Value (AOV)</li>
 	<li><b>Top Product Category Performance: </b> An analysis of the top generating product categories, understanding their impact on sales and returns.</li>
 	<li><b>Regional Results: </b>Evaluating regional demand and product performance within regions to identify areas for improvement.</li>
-</ul>
+</ul><br>
+
+The goal was to identify where the business is performing well, where value is being lost, and what actions should be prioritized heading into 2026 in the top 3 countries.
   </p>
 
 <h1 align="center">Dataset Structure</h1>
