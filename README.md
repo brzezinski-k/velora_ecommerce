@@ -12,16 +12,26 @@ Insights and recommendations are provided on the following key areas:
 
 The goal was to identify where the business is performing well, where value is being lost, and what actions should be prioritized heading into 2026 in the top 3 countries.
   </p>
+<h1 align="center">Tools and Files Used</h1>
+<p>All files used for this analysis can be found <a href="">here</a>.
+Tools used in this analysis: Excel, PowerBI.</p>
 
 <h1 align="center">Dataset Structure</h1>
   <p>The database consists of two tables: <b>fact_orders</b> and <b>fact_product</b>, totaling 80,000 records.</p>
   <p align="center">
     <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/dataset_structure.png?raw=true" width="700"/>
   </p>
-  <p>Before beginning the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Excel file with issue logs can be found <a href="https://github.com/brzezinski-k/velora_ecommerce/blob/main/issue_logs.csv">here</a>.</p>
 <h1 align="center">Executive Summary</h1>
-<p>Revenue remained stable throughout 2025, fluctuating within a ±4% band across all quarters with no significant seasonal pattern.</p><br>
-<p>Below is the overview page from the PowerBI dashboard, and more examples are included throughout the report. The entire dashboard can be downloaded <a href="">here</a>.</p>
+<p>Revenue throughout the year was driven by AOV, with monthly order volume remaining stable in the 5,900–6,300 range. Q2 was the strongest quarter, primarily due to a revenue spike in April driven by seasonal demand peaks.<br>
+DE, FR, and PL each generate approximately twice the revenue of an average market, making them the three key markets for the business.<br>
+Tops, Dresses, Jeans, and Shoes were the top-performing product categories, collectively representing 61.3% of total revenue across 11 categories.<br>
+Returns account for €9.67M in lost revenue, equivalent to a 30.46% return rate — consistent across all markets and product categories, indicating a systemic issue.<br>
+<h3><b>Recommendations:</b></h3></p>
+<ul>
+	<li>Investigate return root causes, focusing on sizing accuracy, product descriptions, and return policy friction.</li>
+	<li>Identify the drivers behind April's AOV peak and assess whether similar conditions can be replicated in weaker months.</li>
+	<li>Resolve missing order date and product data (7.67% of orders) and unattributed country revenue (€1.45M) to improve analytical coverage.</li>
+</ul>
 <p align="center">
     <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/velora_dashboard.png?raw=true" width="700"/>
   </p>
