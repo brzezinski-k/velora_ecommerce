@@ -20,10 +20,10 @@ The goal was to identify where the business is performing well, where value is b
   </p>
   <p>Before beginning the analysis, a variety of checks were conducted for quality control and familiarization with the datasets. The Excel file with issue logs can be found <a href="https://github.com/brzezinski-k/velora_ecommerce/blob/main/issue_logs.csv">here</a>.</p>
 <h1 align="center">Executive Summary</h1>
-<p>Revenue remained stable throughout 2025, fluctuating within a ±4% band across all quarters with no significant seasonal pattern.</p><br><br>
+<p>Revenue remained stable throughout 2025, fluctuating within a ±4% band across all quarters with no significant seasonal pattern.</p><br>
 <p>Below is the overview page from the PowerBI dashboard, and more examples are included throughout the report. The entire dashboard can be downloaded <a href="">here</a>.</p>
 <p align="center">
-    <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/velora_dashboard.png" width="700"/>
+    <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/velora_dashboard.png?raw=true" width="700"/>
   </p>
 <h2 align="center">Overview of Findings</h2>
 <h2 align="center">Sales Trends</h2>
