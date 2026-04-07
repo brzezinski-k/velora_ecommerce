@@ -145,7 +145,7 @@ Dress ID 335 grew revenue 13x from Q1 to Q3 before recording no sales in Q4 — 
 	<li>Create clearer gift sizing guidance at checkout, extended exchange windows as an alternative to full returns, and targeted post-Christmas retention campaigns</li>
 </ul>
 
-<h3>Countries</h3>
+<h3>Regions</h3>
 <ul>
 	<li>Ensure at least one high-AOV category in Germany is actively supported entering Q4 2026 to prevent outerwear, tops, and dresses weakening simultaneously with no offset.</li>
 	<li>Onboard a second shoes brand in Germany before Q3 2026 to avoid repeating the H2 revenue cliff caused by full Marelli withdrawal.</li>
