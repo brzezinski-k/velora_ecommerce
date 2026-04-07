@@ -147,7 +147,7 @@ Dress ID 335 grew revenue 13x from Q1 to Q3 before recording no sales in Q4 — 
 
 <h3>Countries</h3>
 <ul>
-	<li>Ensure at least one high-AOV category in Germany is actively supported entering Q4 2026 to prevent Outerwear, Tops, and Dresses weakening simultaneously with no offset.</li>
+	<li>Ensure at least one high-AOV category in Germany is actively supported entering Q4 2026 to prevent outerwear, tops, and dresses weakening simultaneously with no offset.</li>
 	<li>Onboard a second shoes brand in Germany before Q3 2026 to avoid repeating the H2 revenue cliff caused by full Marelli withdrawal.</li>
 	<li>Investigate Dress ID 335 disappearance in FR — determine whether the Q4 absence was a stockout, delisting, or listing error and restore availability for 2026.</li>
 	<li>Replicate the FR Skirts relay model — apply the complementary two-SKU seasonal handoff approach to underperforming categories in DE and PL.</li>
