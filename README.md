@@ -7,7 +7,7 @@ Insights and recommendations are provided on the following key areas:
 <ul>
 	<li><b>Sales Trends Analysis: </b>Revenue, Total Orders and Average Order Value (AOV)</li>
 	<li><b>Top Product Category Performance: </b> An analysis of the top generating product categories, understanding their impact on sales and returns.</li>
-	<li><b>Regional Results: </b>Evaluating regional demand and product performance within regions to identify areas for improvement.</li>
+	<li><b>Key Market Analysis: DE, FR, PL: </b>Evaluating regional demand and product performance within regions to identify areas for improvement.</li>
 </ul><br>
 
 The goal was to identify where the business is performing well, where value is being lost, and what actions should be prioritized heading into 2026 in the top 3 countries.
@@ -20,6 +20,7 @@ Tools used in this analysis: Excel, PowerBI.</p>
   <p align="center">
     <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/dataset_structure.png?raw=true" width="700"/>
   </p>
+  <p>The dataset contains two known quality gaps: 7.67% of orders lack date attributes, and €1.45M in revenue is unattributed to any country — both are noted where relevant and excluded from affected calculations.</p>
 <h1 align="center">Executive Summary</h1>
 <p>Revenue throughout the year was driven by AOV, with monthly order volume remaining stable in the 5,900–6,300 range. Q2 was the strongest quarter, primarily due to a revenue spike in April driven by seasonal demand peaks.<br>
 DE, FR, and PL each generate approximately twice the revenue of an average market, making them the three key markets for the business.<br>
@@ -27,8 +28,8 @@ Tops, Dresses, Jeans, and Shoes were the top-performing product categories, coll
 Returns account for €9.67M in lost revenue, equivalent to a 30.46% return rate — consistent across all markets and product categories, indicating a systemic issue.<br>
 <h3><b>Recommendations:</b></h3></p>
 <ul>
-	<li>Investigate return root causes, focusing on sizing accuracy, product descriptions, and return policy friction.</li>
-	<li>Identify the drivers behind April's AOV peak and assess whether similar conditions can be replicated in weaker months.</li>
+	<li>Investigate return root causes across all markets — a systemic 30.46% return rate represents €9.67M in lost revenue, with Tops as the highest-risk category for four consecutive quarters.</li>
+	<li>Resolve the H2 shoes revenue cliff in DE by onboarding a second brand before Q3 2026, and investigate the Q4 disappearance of Dress ID 335 in FR as a recoverable 2026 opportunity.</li>
 	<li>Resolve missing order date and product data (7.67% of orders) and unattributed country revenue (€1.45M) to improve analytical coverage.</li>
 </ul>
 <p align="center">
@@ -42,9 +43,9 @@ Returns account for €9.67M in lost revenue, equivalent to a 30.46% return rate
 </p>
 
 <ul>
-	<li>Q1 revenue and AOV remained stable throughout the quarter. March recorded the highest order volume of the year, while February achieved the strongest AOV within Q1.</li>
+	<li>March recorded the highest order volume of the year, while February achieved the strongest AOV within Q1.</li>
 	<li>Q2 was the best-performing quarter by both revenue and AOV, delivering a €262K revenue increase and €13.08 AOV growth compared to Q1. Order volume was consistent across all three months, with only a 121-order difference between the lowest and highest months.</li>
-	<li>Q3 experienced a downward trend driven by AOV decline. Revenue fell by €131K, and AOV dropped by €6.53 compared to Q2, while order volume remained largely unchanged. August showed a brief recovery — a €13.65 AOV increase and €63K revenue uplift — however, September reversed those gains, with AOV returning to July levels and revenue falling by €31K. Notably, September recorded the third-highest order volume of the year at 6,201 orders.</li>
+	<li>Q3 experienced a downward trend driven by AOV decline. Revenue fell by €131K, and AOV dropped by €6.53 compared to Q2, while order volume remained largely unchanged. August showed a brief recovery — a €13.65 AOV increase and €63K revenue uplift — however, September reversed those gains, with AOV returning to July levels and revenue falling by €31K.</li>
 	<li>Q4 saw order volume recover, with 305 more orders than Q3, yet AOV continued to decline. The net result was a marginal €9K revenue increase — illustrating that volume alone cannot compensate for falling AOV.</li>
 </ul>
 <p>Q4 recorded the highest order volume of the year, yet failed to overtake Q2 in revenue, with a €122K gap remaining. All four quarters maintained nearly identical order volumes, but differing AOV levels determined the revenue outcome in each case.</p>
@@ -63,7 +64,7 @@ Revenue and AOV move in opposite directions across quarters:
 	<li> When revenue rises (Q2), AOV falls, indicating volume-driven demand.</li> 
 	<li>When revenue falls (Q3), AOV rises, pointing to a shift toward higher-value purchases.</li> 
 </ul>
-	This inverse relationship is a classic sign of product mix rotation rather than consistent growth.<br><br>Nord&Co holds 3 of the 9 top positions. Strong brand pull, but also a concentration risk — a single brand's decline could disproportionately affect category performance.<br><br><br>
+	Nord&Co holds 3 of the 9 top positions. Strong brand pull, but also a concentration risk — a single brand's decline could disproportionately affect category performance.<br><br><br>
 
 <p align="center">
     <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/dresses.png?raw=true" width="900"/>
@@ -95,6 +96,8 @@ Shoes peak in Q1 — the opposite of every other category. This makes them a nat
     <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/returns.png?raw=true" width="900"/>
 </p>
 
+<p>Returns represent €9.67M in lost revenue at a 30.46% return rate — consistent across all markets and product categories, indicating a systemic issue rather than a localised one. The quarterly breakdown below shows where within the year the exposure concentrates.</p>
+
 <ul>
 	<li>Q1 recorded €990K in refunded sales, establishing the baseline for the year and representing the lowest quarterly refund total.</li>
 	<li>Q2 saw refunded sales increase by nearly €100K despite a slight decline in return rate. Tops were the primary driver, reaching €252K in refunded sales — the highest single-category quarterly figure of the year. The remaining increase came from Jeans (+€13K), Shoes (+€15K), and Bags (+€16K).</li>
@@ -102,7 +105,9 @@ Shoes peak in Q1 — the opposite of every other category. This makes them a nat
 	<li>Q4 was the strongest quarter for refunded sales at €1.117M — €127K above Q1 — potentially driven by post-Christmas gift returns. Accessories (+€23K) and Outerwear (+€19K) were the primary contributors to the quarterly increase. Tops remained the largest refunded sales category for the fourth consecutive quarter, making it the highest-risk category for returns across the full year.</li>
 </ul>
 
-<h2 align="center">Region Performance</h2>
+<h2 align="center">Key Market Analysis: DE, FR, PL</h2>
+
+<p>Analysis is scoped to DE, FR, and PL — the three markets each generating approximately twice the revenue of an average market in the dataset.</p>
 
 <p align="center">
     <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/countries.png?raw=true" width="900"/>
