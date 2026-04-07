@@ -18,10 +18,14 @@ Tools used in this analysis: Excel, PowerBI.</p>
 <h1 align="center">Dataset Structure</h1>
   <p>The database consists of two tables: <b>fact_orders</b> and <b>fact_product</b>, totaling 80,000 records.</p>
   <p align="center">
-    <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/dataset_structure.png?raw=true" width="700"/>
+    <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/dataset_structure.png?raw=true" width="500"/>
   </p>
   <p>The dataset contains two known quality gaps: 7.67% of orders lack date attributes, and €1.45M in revenue is unattributed to any country — both are noted where relevant and excluded from affected calculations.</p>
 <h1 align="center">Executive Summary</h1>
+<p align="center">
+    <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/velora_dashboard.png?raw=true" width="500"/>
+</p>
+
 <p>Revenue throughout the year was driven by AOV, with monthly order volume remaining stable in the 5,900–6,300 range. Q2 was the strongest quarter, primarily due to a revenue spike in April driven by seasonal demand peaks.<br>
 DE, FR, and PL each generate approximately twice the revenue of an average market, making them the three key markets for the business.<br>
 Tops, Dresses, Jeans, and Shoes were the top-performing product categories, collectively representing 61.3% of total revenue across 11 categories.<br>
@@ -32,14 +36,11 @@ Returns account for €9.67M in lost revenue, equivalent to a 30.46% return rate
 	<li>Resolve the H2 shoes revenue cliff in DE by onboarding a second brand before Q3 2026, and investigate the Q4 disappearance of Dress ID 335 in FR as a recoverable 2026 opportunity.</li>
 	<li>Resolve missing order date and product data (7.67% of orders) and unattributed country revenue (€1.45M) to improve analytical coverage.</li>
 </ul>
-<p align="center">
-    <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/velora_dashboard.png?raw=true" width="700"/>
-  </p>
 <h1 align="center">Insight Deep Dive</h1>
 <h2 align="center">Sales Trends</h2>
 
 <p align="center">
-    <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/sales_trends.png?raw=true" width="700"/>
+    <img src="https://github.com/brzezinski-k/velora_ecommerce/blob/main/sales_trends.png?raw=true" width="400"/>
 </p>
 
 <ul>
