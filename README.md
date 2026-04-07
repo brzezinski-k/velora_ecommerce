@@ -12,8 +12,7 @@ Insights and recommendations are provided on the following key areas:
 
 The goal was to identify where the business is performing well, where value is being lost, and what actions should be prioritized heading into 2026 in the top 3 countries.
   </p>
-<h1 align="center">Tools and Files Used</h1>
-<p>All files used for this analysis can be found <a href="">here</a>.
+<p>Dashboard used for this analysis can be found <a href="https://github.com/brzezinski-k/velora_ecommerce/blob/main/Velora.pbix">here</a>.
 Tools used in this analysis: Excel, PowerBI.</p>
 
 <h1 align="center">Dataset Structure</h1>
@@ -127,7 +126,6 @@ Dress ID 335 grew revenue 13x from Q1 to Q3 before recording no sales in Q4 — 
 
 <p>Poland is the most consistent market, maintaining stable revenue and AOV across all four quarters with no significant dips. Its Q1 strength — the strongest Q1 of the three countries — is directly explained by shoes over-indexing in Poland, a category that peaks in Q1 across the dataset. Poland's consistency makes it the least analytically complex of the three markets, which is itself a notable finding: stable demand, no category concentration risk, and no significant seasonal volatility suggest a well-balanced product mix relative to local demand.</p>
 
-<h2 align="center">Channel Performance</h2>
 <h1 align="center">Recommendations</h1>
 
 <h3>Products</h3>
