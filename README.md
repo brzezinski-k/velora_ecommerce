@@ -13,7 +13,7 @@ Insights and recommendations are provided on the following key areas:
 The goal was to identify where the business is performing well, where value is being lost, and what actions should be prioritized heading into 2026 in the top 3 countries.
   </p>
 <p>Dashboard used for this analysis can be found <a href="https://github.com/brzezinski-k/velora_ecommerce/blob/main/Velora.pbix">here</a>.
-Tools used in this analysis: Excel, PowerBI.</p>
+Tools used in this analysis: PostgreSQL, Excel, PowerBI.</p>
 
 <h1 align="center">Dataset Structure</h1>
   <p>The database consists of two tables: <b>fact_orders</b> and <b>fact_product</b>, totaling 80,000 records.</p>
